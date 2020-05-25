@@ -13,7 +13,6 @@ public class UITimer : MonoBehaviour {
 
         if (playing == true)
         {
-
             Timer += Time.deltaTime;
             int minutes = Mathf.FloorToInt(Timer / 60f);
             int seconds = Mathf.FloorToInt(Timer % 60f);

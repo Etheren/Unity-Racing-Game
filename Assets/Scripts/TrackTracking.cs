@@ -7,23 +7,11 @@ public class TrackTracking : MonoBehaviour {
     public List<RaceCheckpoints> checkpoints;
     public float lapsCompleted;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-    void OnCollisionEnter(Collision col)
+    void OnTriggerEnter (Collider col)
     {
-        if (col.gameObject.tag == "Player")
-        {
-            
-        }
+
     }
+
 }
 
 [System.Serializable]
